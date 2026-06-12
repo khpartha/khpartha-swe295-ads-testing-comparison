@@ -1,2 +1,8 @@
 (base) partha@SORA-WS3:~/scenoRITA-7.0$ ls ~/scenoRITA-7.0/out/0608_120107_borregas_ave/records/ | wc -l
 3020
+(base) partha@SORA-WS3:~/scenoRITA-7.0$ tail -n +2 ~/scenoRITA-7.0/out/0608_120107_borregas_ave/violations/Collision.csv | wc -l
+9
+
+
+
+
