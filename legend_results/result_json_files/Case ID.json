@@ -1,0 +1,13 @@
+{
+    "accident_report": "Content",
+    "functional_scenario": {
+        "func_scenario": "Initial actions: \n \n- (V1): V1 drives on the right lane at a steady speed.\n- (V2): V2 drives on the middle lane slightly ahead of V1.\n- (V3): V3 drives on the left lane slightly behind V2.\n\n**\nInteractive pattern sequence: \n(V1,  V2): V1 accelerates while V2 maintains speed on the middle lane.\n(V2,  V3): V2 decelerates slightly as V3 maintains speed on the left lane.\n",
+        "func_scenario_dict": {
+            "Road Structure": "Road Structure**: Straight 3-lane highway",
+            "Initial Actions": " \n- (V1): V1 drives on the right lane at a steady speed.\n- (V2): V2 drives on the middle lane slightly ahead of V1.\n- (V3): V3 drives on the left lane slightly behind V2.\n\n**",
+            "Interactive Pattern Sequence": "(V1,  V2): V1 accelerates while V2 maintains speed on the middle lane.\n(V2,  V3): V2 decelerates slightly as V3 maintains speed on the left lane.\n"
+        },
+        "candidate_ego": "3"
+    },
+    "logical_scenario": "def testcase(self):\n    vehicle1 = NPC(lane_id=[3, 3], offset=[30, 40], initial_speed=[30, 35])\n    vehicle2 = NPC(lane_id=[2, 2], offset=[20, 25], initial_speed=[30, 35])\n    ego = NPC(lane_id=[1, 1], offset=[25, 30], initial_speed=[30, 35])\n    vehicle1.accelerate(target_speed=[35, 40], trigger_sequence=[1, 2])\n    vehicle2.decelerate(target_speed=[25, 30], trigger_sequence=[3, 4])\n"
+}

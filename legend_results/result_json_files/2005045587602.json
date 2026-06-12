@@ -1,0 +1,7 @@
+{
+    "collision_num": 2,
+    "critical_scenarios": [
+        "def testcase(self):\n    vehicle1 = NPC(lane_id=1, offset=20.009423551214887, initial_speed=\n        26.80615034214057)\n    ego = NPC(lane_id=3, offset=30.0, initial_speed=30.81199621869257)\n    vehicle1.changeLane(target_lane=3, target_speed=53.72320873241158,\n        trigger_sequence=2)\n    vehicle1.decelerate(target_speed=0.9669820056299613, trigger_sequence=3)\n",
+        "def testcase(self):\n    vehicle1 = NPC(lane_id=1, offset=20.1280649884947, initial_speed=\n        26.80615034214057)\n    ego = NPC(lane_id=3, offset=30.0, initial_speed=30.81199621869257)\n    vehicle1.changeLane(target_lane=3, target_speed=36.73234789475326,\n        trigger_sequence=2)\n    vehicle1.decelerate(target_speed=0.8587822431503662, trigger_sequence=3)\n"
+    ]
+}
