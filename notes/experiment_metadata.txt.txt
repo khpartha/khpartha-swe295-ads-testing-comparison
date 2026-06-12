@@ -1,0 +1,12 @@
+LeGEND controlled run:
+Runtime: approximately 6h22m
+Completed reports: 16/18
+Scenarios evaluated: 1,610
+Collisions: 6
+Main log: run_log_2026-06-07_12-56-44.log
+
+scenoRITA controlled run:
+Runtime: approximately 6h32m
+Scenarios evaluated: 3,020
+Collision records: 9
+Main output: Collision.csv
