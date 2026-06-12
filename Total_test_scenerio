@@ -1,0 +1,10 @@
+(legend) partha@SORA-WS3:~/LeGEND$ grep -c "===Iteration" ~/LeGEND/data/logs/2026-06-07_12-56-44.log
+161
+(legend) partha@SORA-WS3:~/LeGEND$ 
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+161 iterations × 10 scenarios per iteration = 1,610 scenarios evaluated
+
+Estimated scenarios evaluated: 1,610
+Counting method: 161 iteration markers in the LeGEND run log × population size of 10
